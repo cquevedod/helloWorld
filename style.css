@@ -1,0 +1,41 @@
+body {
+    --first-color-alt: #006DC6;
+    --second-color-alt: #00BFF0;
+    --accent-color: #FBA905;
+    --second-color: #00CBFF;
+    --dark-color: #282D31;
+    font-size: 1.2em;
+    min-height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--dark-color);
+
+    color: var(--accent-color);
+    transition: all .5s ease-out;
+}
+
+
+#text:hover {
+    color: var(--dark-color);
+    transition: color .3s ease-in;
+}
+
+#container:hover {
+    background-color: var(--accent-color);
+    color: var(--dark-color);
+}
+
+#container:active {
+    background-color: var(--second-color);
+    color: var(--dark-color);
+}
+
+
+
+
+
+
