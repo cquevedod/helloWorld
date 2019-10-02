@@ -1,5 +1,5 @@
 const helloWorld = () => {
-    document.getElementById('text').innerHTML = "Hello World!";
-}
+  document.getElementById("text").innerHTML = "Hello World!";
+};
 
 helloWorld();
